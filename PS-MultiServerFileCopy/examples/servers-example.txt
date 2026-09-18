@@ -1,0 +1,13 @@
+# Server list for MultiServerFileCopy
+# ------------------------------------
+# One server name or hostname per line.
+# Lines beginning with '#' are comments and are ignored.
+# Blank lines are also ignored.
+
+SERVER01
+SERVER02
+SERVER03
+
+# Staging servers
+SERVER04
+SERVER05

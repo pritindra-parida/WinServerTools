@@ -1,0 +1,56 @@
+# ── Log files ──────────────────────────────────────────────────────────────────
+**/logs/*.log
+**/logs/*.txt
+
+# Keep the logs directory in version control
+!**/logs/.gitkeep
+
+# ── Temporary and generated files ─────────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# ── Credentials and secrets ───────────────────────────────────────────────────
+*.credential
+*.cred
+*.pfx
+*.p12
+*.key
+*.pem
+secrets.json
+secrets.ps1
+credentials.ps1
+.env
+
+# ── Local configuration overrides ─────────────────────────────────────────────
+*.local.ps1
+*.local.json
+local-servers.txt
+my-servers.txt
+
+# ── PowerShell DSC generated files ────────────────────────────────────────────
+*.mof
+*.meta.mof
+
+# ── Editor and IDE files ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# ── OS generated files ─────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── NuGet / PSDepend / package restore ────────────────────────────────────────
+packages/
+*.nupkg
